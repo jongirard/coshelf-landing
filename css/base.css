@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'RobotoSlabThin';
+  font-weight: normal;
+  font-style: italic;
+  src: url("./fonts/RobotoSlab-Thin.eot");
+  src: url("./fonts/RobotoSlab-Thin.eot?#iefix") format("embedded-opentype"), url("./fonts/RobotoSlab-Thin.woff") format("woff"), url("./fonts/RobotoSlab-Thin.ttf") format("truetype"); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/private\/var\/folders\/s_\/45dzvlcx3x7f87ggkndfd9f40000gn\/T\/AppTranslocation\/1278F8C4-3038-4E4F-8262-5D4A76E8D919\/d\/CodeKit\.app\/Contents\/Resources\/engines\/neat\/neat\/grid\/_box-sizing\.scss}line{font-family:\000034}}
+html {
+  box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/private\/var\/folders\/s_\/45dzvlcx3x7f87ggkndfd9f40000gn\/T\/AppTranslocation\/1278F8C4-3038-4E4F-8262-5D4A76E8D919\/d\/CodeKit\.app\/Contents\/Resources\/engines\/neat\/neat\/grid\/_box-sizing\.scss}line{font-family:\000039}}
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jongirard\/Desktop\/landing-page\/scss\/base\.scss}line{font-family:\000036}}
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jongirard\/Desktop\/landing-page\/scss\/base\.scss}line{font-family:\0000310}}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jongirard\/Desktop\/landing-page\/scss\/base\.scss}line{font-family:\0000315}}
+.header-section {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 2px solid #8A9CC3;
+  padding-top: 30px;
+  margin-top: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jongirard\/Desktop\/landing-page\/scss\/base\.scss}line{font-family:\0000323}}
+.header {
+  font-family: 'RobotoSlabThin';
+  font-size: 60px;
+  color: #000;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jongirard\/Desktop\/landing-page\/scss\/base\.scss}line{font-family:\0000329}}
+.sub-header {
+  text-align: center;
+  font-size: 31px;
+  padding-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jongirard\/Desktop\/landing-page\/scss\/base\.scss}line{font-family:\0000334}}
+.mailchimp-form {
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jongirard\/Desktop\/landing-page\/scss\/base\.scss}line{font-family:\0000339}}
+  .mailchimp-form input {
+    border: 1px solid #4F59BC;
+    border-radius: 3px;
+    width: 400px;
+    height: 50px;
+    font-size: 24px;
+    padding-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jongirard\/Desktop\/landing-page\/scss\/base\.scss}line{font-family:\0000347}}
+  .mailchimp-form button {
+    height: 50px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2px;
+    left: -10px;
+    position: relative;
+    top: -3px;
+    border-radius: 3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jongirard\/Desktop\/landing-page\/scss\/base\.scss}line{font-family:\0000364}}
+.social-icons {
+  display: inline-block;
+  list-style-type: none;
+  width: 100%;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jongirard\/Desktop\/landing-page\/scss\/base\.scss}line{font-family:\0000369}}
+  .social-icons li {
+    display: inline-block;
+    padding-right: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jongirard\/Desktop\/landing-page\/scss\/base\.scss}line{font-family:\0000374}}
+.hero-image {
+  text-align: center;
+  padding: 40px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jongirard\/Desktop\/landing-page\/scss\/base\.scss}line{font-family:\0000377}}
+  .hero-image img.hero {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto; }

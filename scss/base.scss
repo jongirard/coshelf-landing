@@ -1,0 +1,82 @@
+@import 'fonts';
+@import 'bourbon';
+@import 'neat/neat';
+// @import 'components/navigation';
+
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-section {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 2px solid #8A9CC3;
+  padding-top: 30px;
+  margin-top: 25px;
+}
+.header {
+  font-family: 'RobotoSlabThin';
+  font-size: 60px;
+  color: #000;
+  text-align: center;
+}
+.sub-header {
+  text-align: center;
+  font-size: 31px;
+  padding-top: 20px;
+}
+.mailchimp-form {
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 0px;
+  input {
+    border: 1px solid #4F59BC;
+    border-radius: 3px;
+    width: 400px;
+    height: 50px;
+    font-size: 24px;
+    padding-left: 10px;
+  }
+  button {
+    height: 50px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2px;
+    left: -10px;
+    position: relative;
+    top: -3px;
+    border-radius: 3px;
+  }
+}
+.social-icons {
+  display: inline-block;
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  li {
+    display: inline-block;
+    padding-right: 20px;
+  }
+}
+.hero-image {
+  text-align: center;
+  padding: 40px 0px;
+  img.hero {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
